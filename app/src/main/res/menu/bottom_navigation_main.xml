@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/phoneCall"
+        android:enabled="true"
+        android:title="Phone"
+        android:icon="@android:drawable/stat_sys_phone_call"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/settings"
+        android:enabled="true"
+        android:title="Settings"
+        android:icon="@android:drawable/ic_menu_more"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/messaging"
+        android:enabled="true"
+        android:title="Messaging"
+        android:icon="@android:drawable/btn_star"
+        app:showAsAction="ifRoom" />
+
+</menu>

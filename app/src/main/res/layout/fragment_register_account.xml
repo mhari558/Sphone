@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+  >
+
+    <RelativeLayout
+        android:id="@+id/accountName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp_5">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_acc_name"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+        <TextView
+            android:id="@+id/idAccName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/name"
+            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp"
+            android:hint="@string/msg_acc_name"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
+    </RelativeLayout>
+    <include
+       layout="@layout/horizantal_line" />
+    <RelativeLayout
+        android:id="@+id/accountUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp_5">
+
+        <TextView
+            android:id="@+id/user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:text="@string/title_user" />
+
+        <TextView
+          android:id="@+id/idAccountUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/user"
+            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:hint="@string/msg_user" />
+    </RelativeLayout>
+
+    <include
+        layout="@layout/horizantal_line" />
+
+    <RelativeLayout
+        android:id="@+id/accountServer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp_5">
+
+        <TextView
+            android:id="@+id/server"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:text="@string/title_server" />
+
+        <TextView
+android:id="@+id/idAccountServer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/server"
+            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:hint="@string/msg_server" />
+    </RelativeLayout>
+
+    <include
+        layout="@layout/horizantal_line" />
+
+    <RelativeLayout
+        android:id="@+id/accountPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp_5">
+
+        <TextView
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:text="@string/title_password" />
+
+        <TextView
+android:id="@+id/idAccountPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/password"
+            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:hint="@string/msg_password" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="bottom"
+        android:weightSum="1">
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:layout_weight="0.5"
+            android:textColor="@android:color/white"
+            android:background="@color/colorPrimary"
+            android:layout_margin="@dimen/dp_5"/>
+        <Button
+            android:id="@+id/save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:layout_weight="0.5"
+            android:textColor="@android:color/white"
+            android:background="@color/colorPrimary"
+            android:layout_margin="@dimen/dp_5"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Softphone</string>
+
+    <string name="title_android_integrate">Integarte with Android</string>
+    <string name="message_android_integrate">Integarte with native dialer and call logs</string>
+    <string name="heading_available_profile">AVAILABILITY PROFILE</string>
+    <string name="title_always_available">Always available</string>
+    <string name="message_always_available">Integarte with native dialer and call logs</string>
+    <string name="title_wifi_available">Available on WiFi</string>
+    <string name="message_wifi_available">Availability of incoming calls based on WiFi profile</string>
+
+    <string name="title_outgoing">Only for outgoing</string>
+    <string name="message_outgoing">Activate the SIP client automatically when necessary</string>
+
+    <string name="heading_mobiledata">MOBILE DATA AVAILABILITY</string>
+    <string name="title_mobiledata">I\'m allowed to use mobile</string>
+
+    <string name="message_mobiledata">Your carrier allows VoIP over your mobile data connection. Note that mobile carrier may also bill extra charge for data usage </string>
+
+    <string name="save">Save</string>
+
+    <string name="easyconfiguration">Easy configuration</string>
+
+
+    <string name="remove_account">Remove account</string>
+    <string name="call">Call</string>
+
+    <string name="title_acc_name">Account Name</string>
+    <string name="msg_acc_name">Display name for this account</string>
+
+    <string name="title_user">User</string>
+    <string name="msg_user">Account name/Login (do not write the @sip.server)</string>
+
+    <string name="title_server">Server</string>
+    <string name="msg_server">Sip server domain/IP[:port] (write ip incase of Asterisk server)</string>
+
+    <string name="title_password">Password</string>
+    <string name="msg_password">Password to access your account</string>
+    <string name="alert_dialog_ok">ok</string>
+    <string name="alert_dialog_cancel">cancel</string>
+
+    <dimen name="dp_1">1dp</dimen>
+    <dimen name="dp_2">2dp</dimen>
+    <dimen name="dp_5">5dp</dimen>
+    <dimen name="dp_10">10dp</dimen>
+    <dimen name="dp_15">15dp</dimen>
+    <dimen name="dp_20">20dp</dimen>
+
+    <string name="my_account">My Account</string>
+    <string name="add_account">Add account</string>
+    <string name="show_preview">Show preview</string>
+
+    <string name="hide_preview">Hide preview</string>
+</resources>
